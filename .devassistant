@@ -1,0 +1,15 @@
+dependencies:
+- rpm:
+  - gcc
+  - glibc-devel
+  - automake
+  - autoconf
+  - valgrind
+  - gdb
+  - strace
+devassistant_version: 0.11.1
+original_kwargs:
+  github: tdaede
+  name: /home/thomas/sandbox/drm10bit
+project_type:
+- c
