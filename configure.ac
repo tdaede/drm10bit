@@ -4,6 +4,7 @@ AC_INIT([drm10bit],[0.0])
 AM_INIT_AUTOMAKE
 # DEFINE YOUR OWN HEADERS CHECK - DO NOT DELETE THIS LINE
 #this line defines what libraries should be used during building
+PKG_CHECK_MODULES([libdrm],[libdrm])
 AC_CHECK_LIB([pthread],[pthread_create])
 AC_CHECK_LIB([pthread],[pthread_join])
 # DEFINE YOUR OWN LIBRARY CHECK - DO NOT DELETE THIS LINE
